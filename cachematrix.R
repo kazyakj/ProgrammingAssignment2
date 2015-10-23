@@ -31,11 +31,9 @@ makeCacheMatrix <- function(x = matrix()) {
      )
 }
 
-
 ## cacheSolve computes the inverse of the "matrix" returned by makeCacheMatrix
 ## If inverse is already calculated then cacheSolve will retrieve from cache.
 cacheSolve <- function(x, ...) {
-
     
     ## If inverse matrix already stored in cache 
     ## then return it

@@ -1,5 +1,5 @@
 ## makeCacheMatrix creates a special "matrix" object that can cache its inverse
-## N ote: Does NOT check if matrix is invertible
+## Note: Does NOT check if matrix is invertible
 makeCacheMatrix <- function(x = matrix()) {
     
     m <- NULL
